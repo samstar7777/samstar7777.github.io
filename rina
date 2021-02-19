@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--   og tags for link display. work on facebook, but not working right on twitter -->
+  <meta property="og:title" content="Attack On Titan" />
+  <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/I/71Z7cHS2N2L._AC_SY679_.jpg" />
+  <meta property="og:type" content="Attack On Titan" />
+  <meta property="og:description" content="Stories from another parsec" />
+<!--   this link to a FB debugger was useful "https://developers.facebook.com/tools/debug/" -->
+  <!--  end of og tags for link display. work on facebook, but not working right on twitter -->
+  
+<!--   twitter card code for getting lonk to display nicely -->
+<!--   this link lets you test your card "https://cards-dev.twitter.com/validator" -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@SpamuelBeckett">
+  <meta name="twitter:creator" content="@Spamuel L Jackson">
+  <meta name="twitter:title" content="Attack On Titan">
+  <meta name="twitter:description" content="An anecdote">
+  <meta name="twitter:image" content="https://images-na.ssl-images-amazon.com/images/I/71Z7cHS2N2L._AC_SY679_.jpg">
+ <!--  End  twitter card code for getting lonk to display nicely -->
+  
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-91HXS528YE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];o
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-91HXS528YE');
+</script>
+<!--   end of google analytics -->
+  
+    <style>
+        body {
+            height: 200px;
+            background-color: red;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(to right,green, grey);
+        }
+    </style>
+</head>
+<body>
+  <h1>hi</h1>
+</body>
+</html>
